@@ -1,0 +1,17 @@
+<html ng-app="ngModelExamples">
+    <head>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+    </head>
+
+    <body ng-controller="ExamplesCtrl">
+        <H1>ngModel Examples</H1>
+       Text Box:  <input type="text" ng-model="textString"></input>
+       Check Box: <input type="checkbox" ng-model="booleanValue"></input>
+       <div>
+           <p>Text Input: {{textString}}</p>
+           <p>Text Input: {{booleanValue}}</p>
+       </div>
+    </body>
+
+</html>

@@ -9,3 +9,11 @@ function Main($scope) {
     }
     console.log("Main Called........");
 }
+//the below context is for ngModel-exmaples
+
+var app = angular.module("ngModelExamples", []);
+app.controller("ExamplesCtrl",ExamplesCtrl);
+
+function ExamplesCtrl(){
+
+}
